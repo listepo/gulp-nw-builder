@@ -1,0 +1,31 @@
+{
+  "name": "gulp-nw-builder",
+  "version": "1.0.0",
+  "description": "Help developers build their own NW(node-webkit) apps for different platforms such as win, mac and linux with gulp.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/listepo/gulp-nw-builder.git"
+  },
+  "keywords": [
+    "gulpplugin"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Ivan Tugay <listepo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/listepo/gulp-nw-builder/issues"
+  },
+  "homepage": "https://github.com/listepo/gulp-nw-builder",
+  "dependencies": {
+    "gulp-util": "^3.0.4",
+    "node-webkit-builder": "^1.0.11",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "mocha": "^2.2.1"
+  }
+}
